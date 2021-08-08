@@ -30,7 +30,7 @@ public class DepartmentController {
 
 	@GetMapping("/")
 	public List<Department> getDeptList() {
-		logger.info("Inside Save Department Method" + userBucketPath);	
+		logger.info("Inside Save Department Method " + userBucketPath);	
 		return DepartmentPopulator.getDepartmentList();
 	}
 
